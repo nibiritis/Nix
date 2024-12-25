@@ -1,39 +1,68 @@
-# Hello, Welcome to my repo ~
+# Hello 👋, Welcome to my NIXOS repo ❄️ ~
 ### This is a NixOS guide written by a newbie for a newbie
 
-## Contents in this repo consists
-- configuration.nix
-- neovim config
-- kitty config
-- fish config
+## 🔰 Contents in this repo consists 🔰
+- configuration.nix ❄️
+- neovim config 📝
+- kitty config 😺 
+- fish config 🐠 
 
 
 ## Configuration.nix
 the configuration is written by me totally.
 #### Changes it does ~
-- It sets your *Default Shell* from **bash -> fish**
-- Desktop Environment is KDE Plasma & it's kind of bloatfree with thunar as the file manager (because it's the best)
+- It sets your *Default Shell*
+
+from **bash -> fish**
+
+- Desktop Environment is *KDE Plasma* & it's kind of bloatfree with *thunar* as the file manager 🗄️ (because it's the best)
 - enables neovim systemwide
 - gives you the latest kernel available
 - fonts included
-- tui applications which are usually neccessary
-- apps are categorized
-- applications curated for a Data Scientist using python and jupyter notebook
+- TUI applications which are usually neccessary
+- apps are categorized ✅
+- applications curated for a Data Scientist using python and jupyter notebook 🐍
 
 
-## Neovim
+## Neovim 📝
 This is a lazyvim config but I added changes in the colorscheme sections
 #### colorscheme.lua
 the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
 
 
 *Included Colors* ~
-- Dracula
-- Gruvbox
+- Dracula 🟣
+- Gruvbox 🟡
 
- You just need to set the colorscheme name and restart neovim
+ You just need to set the colorscheme *name* and restart neovim
 
-## Fish
+**example:**
+ here's the colorcheme.lua
+ return {
+  -- add dracula
+  { "Mofiqul/dracula.nvim" },
+  
+  -- add Gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+  -- Configure LazyVim to load dracula
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  },
+}
+
+ ☝️ **colorscheme = "place_your_colorscheme_name"**
+
+ few more options so that you don't need to dig the internet ~~
+ - Everforest: "neanias/everforest-nvim"
+ - Kanagawa: "rebelot/kanagawa.nvim"
+ 
+ #### *Important*
+ **You need the "gcc_multi" package for LazyVim to work properly (nvim.treesetter)
+
+## Fish 🐠 
 My fish config is very much vanila! just starship as the prompt and few aliases
 **Important Aliases**
 - ls = this will give better ls results with icons and colors (hidden files are also visible, if you don't want hidden files then remove '-a' flag from the alias)
