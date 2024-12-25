@@ -25,10 +25,13 @@ the configuration is written by me totally.
 This is a lazyvim config but I added changes in the colorscheme sections
 #### colorscheme.lua
 the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
+
+
 *Included Colors* ~
 - Dracula
 - Gruvbox
-You just need to set the colorscheme name and restart neovim
+
+ You just need to set the colorscheme name and restart neovim
 
 ## Fish
 My fish config is very much vanila! just starship as the prompt and few aliases
