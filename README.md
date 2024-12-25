@@ -1,7 +1,7 @@
 # Hello, Welcome to my repo ~
-### This is a NixOs guide written by a newbie for a newbie
+### This is a NixOS guide written by a newbie for a newbie
 
-## COntents in this repo consists
+## Contents in this repo consists
 - configuration.nix
 - neovim config
 - kitty config
