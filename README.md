@@ -37,7 +37,8 @@ the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
  You just need to set the colorscheme *name* and restart neovim
 
 **example:**
- here's the colorcheme.lua
+ ##### here's the colorcheme.lua -
+
  return {
   -- add dracula
   { "Mofiqul/dracula.nvim" },
