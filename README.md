@@ -35,11 +35,14 @@ the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
 
 ## Fish
 My fish config is very much vanila! just starship as the prompt and few aliases
-**Important ALiases**
+**Important Aliases**
 - ls = this will give better ls results with icons and colors (hidden files are also visible, if you don't want hidden files then remove '-a' flag from the alias)
 - n = open neovim
 - config = opens the configuration nix of **your NixOS** /etc/nixos/configuration.nix
 - rebuild = alias for sudo nixos-rebuild switch
+•• Starship ••
+- for **Minimal Prompt** run ``starship preset nerd-font-symbols -o ~/.config/starship.toml``
+- for **Gruvbox Prompt** run ``starship preset gruvbox-rainbow -o ~/.config/starship.toml``
 
 
 **Ignore my Obsidian**
