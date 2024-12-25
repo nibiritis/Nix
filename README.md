@@ -38,8 +38,8 @@ the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
 
 **example:**
  ##### here's the colorcheme.lua -
-
- return {
+```
+return {
   -- add dracula
   { "Mofiqul/dracula.nvim" },
   
@@ -53,6 +53,7 @@ the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
     },
   },
 }
+```
 
  ☝️ **colorscheme = "place_your_colorscheme_name"**
 
