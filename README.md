@@ -40,18 +40,18 @@ the file colorscheme.lua is inside ~/.config/nvim/lua/plugins/colorscheme.lua
  ##### here's the colorcheme.lua -
 
  return {
- -- add dracula
- { "Mofiqul/dracula.nvim" },
- -- add Gruvbox
- { "ellisonleao/gruvbox.nvim" },
- 
- -- Configure LazyVim to load dracula
- {
- "LazyVim/LazyVim",
+  -- add dracula
+  { "Mofiqul/dracula.nvim" },
+  
+  -- add Gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+  -- Configure LazyVim to load dracula
+  {
+    "LazyVim/LazyVim",
     opts = {
-    colorscheme = "gruvbox",
-     },
-   },
+      colorscheme = "gruvbox",
+    },
+  },
 }
 
  ☝️ **colorscheme = "place_your_colorscheme_name"**
